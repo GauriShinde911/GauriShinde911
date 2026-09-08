@@ -15,12 +15,21 @@
       <h1 style="margin: 0; font-size: 2.75rem; font-weight: 800; letter-spacing: -0.5px; color: #FFFFFF; line-height: 1.1;">
         GAURI SHINDE
       </h1>
-      <p style="margin: 6px 0 10px 0; font-size: 1.05rem; font-weight: 500; color: #94A3B8; letter-spacing: 0.3px;">
+      <p style="margin: 6px 0 4px 0; font-size: 1.05rem; font-weight: 500; color: #94A3B8; letter-spacing: 0.3px;">
         AI Engineer &nbsp;•&nbsp; Autonomous Systems &nbsp;•&nbsp; Product Thinking
       </p>
-      <p style="margin: 0 0 16px 0; font-size: 1.02rem; font-weight: 400; color: #CBD5E1; line-height: 1.55;">
+      <p style="margin: 0 0 6px 0; font-size: 1.02rem; font-weight: 400; color: #CBD5E1; line-height: 1.55;">
         Designing deterministic AI products that think, verify and decide.
       </p>
+      <!-- Item 10: compact journey arc line -->
+      <p style="margin: 0 0 14px 0; font-size: 0.82rem; color: #94A3B8; line-height: 1.5;">
+        <a href="https://github.com/GauriShinde911/smart-event-analytics-agent" style="color: #60A5FA; text-decoration: none;">Currently building: Autonomous AI Decision Intelligence →</a>
+        &nbsp;|&nbsp; Python (2024) → Deep Learning (2025) → Autonomous Agents (2026) → next: AI Product
+      </p>
+      <!-- Item 12: last commit badge -->
+      <div style="margin-bottom: 14px;">
+        <img src="https://img.shields.io/github/last-commit/GauriShinde911/GauriShinde911?style=flat-square&label=last%20update&color=162032&labelColor=0D1726&logo=github&logoColor=60A5FA" alt="Last commit" />
+      </div>
       <div>
         <a href="https://linkedin.com/in/gaurishinde6283" target="_blank">
           <img src="assets/btn_connect.svg" height="34" alt="Connect" />
@@ -44,31 +53,31 @@
 
 <img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
 
-<!-- CURRENTLY BUILDING -->
-<table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: separate; border: 1px solid #1E293B; background: #0D1726; border-radius: 12px; margin-top: 28px; margin-bottom: 28px;">
+<!-- Item 6: NOW / NEXT / CURIOUS ABOUT strip (replaces About Me) -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: separate; border-spacing: 12px; margin-left: -12px; margin-right: -12px; margin-top: 28px; margin-bottom: 28px;">
   <tr>
-    <td style="padding: 22px 26px; border: none;">
-      <p style="margin: 0 0 6px 0; font-size: 0.75rem; font-weight: 700; color: #60A5FA; letter-spacing: 1.5px; text-transform: uppercase;">
-        CURRENTLY BUILDING
+    <td width="33.33%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
+      <p style="color: #60A5FA; font-weight: 700; font-size: 0.78rem; letter-spacing: 1.2px; text-transform: uppercase; margin: 0 0 8px 0;">
+        NOW
       </p>
-      <h2 style="margin: 0 0 12px 0; font-size: 1.45rem; font-weight: 700; color: #FFFFFF;">
-        Autonomous AI Decision Intelligence
-      </h2>
-      <div style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/FastAPI-162032?style=flat-square&logo=fastapi&logoColor=60A5FA" alt="FastAPI" />
-        &nbsp;
-        <img src="https://img.shields.io/badge/LangGraph-162032?style=flat-square&logoColor=60A5FA" alt="LangGraph" />
-        &nbsp;
-        <img src="https://img.shields.io/badge/LLM%20Evaluation-162032?style=flat-square&logoColor=60A5FA" alt="LLM Evaluation" />
-        &nbsp;
-        <img src="https://img.shields.io/badge/Guardrails-162032?style=flat-square&logoColor=60A5FA" alt="Guardrails" />
-        &nbsp;
-        <img src="https://img.shields.io/badge/Streamlit-162032?style=flat-square&logo=streamlit&logoColor=60A5FA" alt="Streamlit" />
-        &nbsp;
-        <img src="https://img.shields.io/badge/Multi--Agent%20Systems-162032?style=flat-square&logoColor=60A5FA" alt="Multi-Agent Systems" />
-      </div>
-      <p style="margin: 0; color: #94A3B8; font-size: 0.92rem; line-height: 1.55;">
-        Building reliable AI workflows with deterministic state machines, runtime verification, and product-first architecture.
+      <p style="color: #CBD5E1; font-size: 0.88rem; line-height: 1.5; margin: 0;">
+        Shipping SEA Agent's guardrail layer
+      </p>
+    </td>
+    <td width="33.33%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
+      <p style="color: #60A5FA; font-weight: 700; font-size: 0.78rem; letter-spacing: 1.2px; text-transform: uppercase; margin: 0 0 8px 0;">
+        NEXT
+      </p>
+      <p style="color: #CBD5E1; font-size: 0.88rem; line-height: 1.5; margin: 0;">
+        AI Product Management — see PRDs below
+      </p>
+    </td>
+    <td width="33.33%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
+      <p style="color: #60A5FA; font-weight: 700; font-size: 0.78rem; letter-spacing: 1.2px; text-transform: uppercase; margin: 0 0 8px 0;">
+        CURRENTLY READING
+      </p>
+      <p style="color: #CBD5E1; font-size: 0.88rem; line-height: 1.5; margin: 0;">
+        [paper or book title — personalize this]
       </p>
     </td>
   </tr>
@@ -76,51 +85,15 @@
 
 <img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
 
-<!-- ABOUT ME -->
-<h3 style="color: #CBD5E1; font-size: 1.15rem; margin-top: 28px; margin-bottom: 14px; letter-spacing: 0.5px;">
-  ◈ About Me
-</h3>
-
-<table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: separate; border-spacing: 12px; margin-left: -12px; margin-right: -12px; margin-bottom: 28px;">
-  <tr>
-    <td width="33.33%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
-      <p style="color: #60A5FA; font-weight: 700; font-size: 0.98rem; margin: 0 0 8px 0;">
-        🧠 AI Engineering
-      </p>
-      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.5; margin: 0;">
-        Multi-agent systems, computer vision, deep learning and reliable LLM pipelines.
-      </p>
-    </td>
-    <td width="33.33%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
-      <p style="color: #60A5FA; font-weight: 700; font-size: 0.98rem; margin: 0 0 8px 0;">
-        📦 Product Thinking
-      </p>
-      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.5; margin: 0;">
-        Transforming ML capabilities into scalable products with measurable business value.
-      </p>
-    </td>
-    <td width="33.33%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
-      <p style="color: #60A5FA; font-weight: 700; font-size: 0.98rem; margin: 0 0 8px 0;">
-        🎯 Vision
-      </p>
-      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.5; margin: 0;">
-        Privacy-first AI experiences designed for real-world decision making.
-      </p>
-    </td>
-  </tr>
-</table>
-
-<img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
-
-<!-- FEATURED PROJECTS -->
+<!-- FEATURED PROJECTS — top 3 only (item 3: Deep Learning dropped) -->
 <h3 style="color: #CBD5E1; font-size: 1.15rem; margin-top: 28px; margin-bottom: 14px; letter-spacing: 0.5px;">
   ◈ Featured Projects
 </h3>
 
-<table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: separate; border-spacing: 12px; margin-left: -12px; margin-right: -12px; margin-bottom: 24px;">
-  <!-- ROW 1 -->
+<!-- ROW 1: SEA Agent (full width) -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: separate; border-spacing: 12px; margin-left: -12px; margin-right: -12px; margin-bottom: 0;">
   <tr>
-    <td width="50%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
+    <td valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
       <a href="https://github.com/GauriShinde911/smart-event-analytics-agent">
         <img src="assets/card_sea_agent.svg" width="100%" style="border-radius: 8px; margin-bottom: 12px; display: block;" alt="SEA Agent" />
       </a>
@@ -129,8 +102,12 @@
           SEA Agent
         </a>
       </h3>
-      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; min-height: 38px; margin: 0 0 12px 0;">
+      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; margin: 0 0 6px 0;">
         Autonomous decision intelligence agent with deterministic state graphs and runtime guardrails.
+      </p>
+      <!-- Item 7: outcome metric placeholder (accent blue) -->
+      <p style="color: #60A5FA; font-size: 0.86rem; line-height: 1.4; margin: 0 0 12px 0;">
+        📊 [insert metric — e.g. cuts manual triage by ~40% in test runs]
       </p>
       <div style="margin-bottom: 12px;">
         <img src="https://img.shields.io/badge/FastAPI-162032?style=flat-square&logo=fastapi&logoColor=60A5FA" alt="FastAPI"/>
@@ -141,29 +118,11 @@
         View Repository →
       </a>
     </td>
-    <td width="50%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
-      <a href="https://github.com/GauriShinde911/deep-learning-portfolio">
-        <img src="assets/card_deep_learning.svg" width="100%" style="border-radius: 8px; margin-bottom: 12px; display: block;" alt="Deep Learning Portfolio" />
-      </a>
-      <h3 style="margin: 0 0 6px 0;">
-        <a href="https://github.com/GauriShinde911/deep-learning-portfolio" style="color: #FFFFFF; text-decoration: none; font-size: 1.1rem; font-weight: 700;">
-          Deep Learning Portfolio
-        </a>
-      </h3>
-      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; min-height: 38px; margin: 0 0 12px 0;">
-        Neural network implementations covering CNNs, GANs, and transfer learning architectures.
-      </p>
-      <div style="margin-bottom: 12px;">
-        <img src="https://img.shields.io/badge/PyTorch-162032?style=flat-square&logo=pytorch&logoColor=60A5FA" alt="PyTorch"/>
-        <img src="https://img.shields.io/badge/TensorFlow-162032?style=flat-square&logo=tensorflow&logoColor=60A5FA" alt="TensorFlow"/>
-        <img src="https://img.shields.io/badge/Scikit--Learn-162032?style=flat-square&logo=scikitlearn&logoColor=60A5FA" alt="Scikit-Learn"/>
-      </div>
-      <a href="https://github.com/GauriShinde911/deep-learning-portfolio" style="color: #60A5FA; text-decoration: none; font-size: 0.88rem; font-weight: 500;">
-        View Repository →
-      </a>
-    </td>
   </tr>
-  <!-- ROW 2 -->
+</table>
+
+<!-- ROW 2: HomeBite + Agritech side by side -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: separate; border-spacing: 12px; margin-left: -12px; margin-right: -12px; margin-top: 0; margin-bottom: 24px;">
   <tr>
     <td width="50%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
       <a href="https://github.com/GauriShinde911/home-bite">
@@ -174,8 +133,12 @@
           HomeBite (Published Research)
         </a>
       </h3>
-      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; min-height: 38px; margin: 0 0 12px 0;">
+      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; margin: 0 0 6px 0;">
         AI nutrition scoring and demand forecasting platform connecting home cooks with subscribers.
+      </p>
+      <!-- Item 7: outcome metric placeholder -->
+      <p style="color: #60A5FA; font-size: 0.86rem; line-height: 1.4; margin: 0 0 12px 0;">
+        📊 [insert metric — e.g. nutrition scoring accuracy improved by ~X% vs baseline]
       </p>
       <div style="margin-bottom: 12px;">
         <img src="https://img.shields.io/badge/React_19-162032?style=flat-square&logo=react&logoColor=60A5FA" alt="React"/>
@@ -195,8 +158,12 @@
           Agritech Weed Detection
         </a>
       </h3>
-      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; min-height: 38px; margin: 0 0 12px 0;">
+      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; margin: 0 0 6px 0;">
         Computer vision segmentation pipeline with automated HSV mask generation for targeted crop spraying.
+      </p>
+      <!-- Item 7: outcome metric placeholder -->
+      <p style="color: #60A5FA; font-size: 0.86rem; line-height: 1.4; margin: 0 0 12px 0;">
+        📊 [insert metric — e.g. weed detection mIoU of ~X% on field test dataset]
       </p>
       <div style="margin-bottom: 12px;">
         <img src="https://img.shields.io/badge/PyTorch-162032?style=flat-square&logo=pytorch&logoColor=60A5FA" alt="PyTorch"/>
@@ -210,7 +177,7 @@
   </tr>
 </table>
 
-<!-- AI PRODUCT MANAGEMENT CASE STUDIES SPOTLIGHT -->
+<!-- AI PRODUCT MANAGEMENT CASE STUDIES SPOTLIGHT (kept unchanged) -->
 <table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: separate; border: 1px solid #1E293B; background: #0D1726; border-radius: 12px; margin-bottom: 28px;">
   <tr>
     <td style="padding: 18px 22px; border: none;">
@@ -236,106 +203,58 @@
 
 <img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
 
-<!-- HOW I BUILD AI PRODUCTS -->
+<!-- HOW I BUILD AI PRODUCTS (kept + item 8: personal italic line added) -->
 <h3 style="color: #CBD5E1; font-size: 1.15rem; margin-top: 28px; margin-bottom: 14px; letter-spacing: 0.5px;">
   ◈ How I Build AI Products
 </h3>
 
-<div align="center" style="margin-bottom: 28px;">
+<div align="center" style="margin-bottom: 16px;">
   <img src="assets/architecture_flow.svg" width="100%" alt="How I Build AI Products: Problem -> Data -> AI Intelligence -> Guardrails -> Decision Engine -> User Experience" />
 </div>
 
+<!-- Item 8: personal reflection line -->
+<p style="color: #94A3B8; font-size: 0.88rem; font-style: italic; line-height: 1.55; margin-bottom: 28px;">
+  [personalize: e.g. "I got burned once by an agent that looked smart in the demo and hallucinated in production — guardrails aren't optional anymore for me."]
+</p>
+
 <img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
 
-<!-- TECH STACK -->
+<!-- Item 9: Currently Exploring strip (replaces Learning Journey) -->
+<p style="margin: 20px 0 28px 0; font-size: 0.9rem; color: #94A3B8; line-height: 1.6;">
+  🔭 <span style="color: #60A5FA; font-weight: 600;">Exploring:</span>
+  Agent evaluation frameworks &nbsp;·&nbsp; Constitutional AI &nbsp;·&nbsp; PM-for-AI frameworks
+</p>
+
+<img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
+
+<!-- TECH STACK — Item 11: single row of 9 most important badges, no sub-headings -->
 <h3 style="color: #CBD5E1; font-size: 1.15rem; margin-top: 28px; margin-bottom: 14px; letter-spacing: 0.5px;">
   ◈ Tech Stack
 </h3>
 
 <div style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 20px 24px; margin-bottom: 28px;">
-
-  <p style="margin: 0 0 10px 0; font-size: 0.78rem; font-weight: 600; color: #60A5FA; letter-spacing: 1.2px; text-transform: uppercase;">
-    AI / ML
-  </p>
-  <div style="margin-bottom: 16px;">
-    <img src="https://img.shields.io/badge/Python-162032?style=flat-square&logo=python&logoColor=60A5FA" alt="Python"/>
-    <img src="https://img.shields.io/badge/PyTorch-162032?style=flat-square&logo=pytorch&logoColor=60A5FA" alt="PyTorch"/>
-    <img src="https://img.shields.io/badge/TensorFlow-162032?style=flat-square&logo=tensorflow&logoColor=60A5FA" alt="TensorFlow"/>
-    <img src="https://img.shields.io/badge/Scikit--Learn-162032?style=flat-square&logo=scikitlearn&logoColor=60A5FA" alt="Scikit-Learn"/>
-    <img src="https://img.shields.io/badge/LangGraph-162032?style=flat-square&logoColor=60A5FA" alt="LangGraph"/>
-    <img src="https://img.shields.io/badge/OpenCV-162032?style=flat-square&logo=opencv&logoColor=60A5FA" alt="OpenCV"/>
-    <img src="https://img.shields.io/badge/Pandas-162032?style=flat-square&logo=pandas&logoColor=60A5FA" alt="Pandas"/>
-    <img src="https://img.shields.io/badge/NumPy-162032?style=flat-square&logo=numpy&logoColor=60A5FA" alt="NumPy"/>
-  </div>
-
-  <p style="margin: 0 0 10px 0; font-size: 0.78rem; font-weight: 600; color: #60A5FA; letter-spacing: 1.2px; text-transform: uppercase;">
-    Backend
-  </p>
-  <div style="margin-bottom: 16px;">
-    <img src="https://img.shields.io/badge/FastAPI-162032?style=flat-square&logo=fastapi&logoColor=60A5FA" alt="FastAPI"/>
-    <img src="https://img.shields.io/badge/Node.js-162032?style=flat-square&logo=nodedotjs&logoColor=60A5FA" alt="Node.js"/>
-    <img src="https://img.shields.io/badge/Express-162032?style=flat-square&logo=express&logoColor=60A5FA" alt="Express"/>
-    <img src="https://img.shields.io/badge/Prisma_ORM-162032?style=flat-square&logo=prisma&logoColor=60A5FA" alt="Prisma"/>
-    <img src="https://img.shields.io/badge/PostgreSQL-162032?style=flat-square&logo=postgresql&logoColor=60A5FA" alt="PostgreSQL"/>
-    <img src="https://img.shields.io/badge/Supabase-162032?style=flat-square&logo=supabase&logoColor=60A5FA" alt="Supabase"/>
-    <img src="https://img.shields.io/badge/SQLite-162032?style=flat-square&logo=sqlite&logoColor=60A5FA" alt="SQLite"/>
-  </div>
-
-  <p style="margin: 0 0 10px 0; font-size: 0.78rem; font-weight: 600; color: #60A5FA; letter-spacing: 1.2px; text-transform: uppercase;">
-    Frontend
-  </p>
-  <div style="margin-bottom: 16px;">
-    <img src="https://img.shields.io/badge/React_19-162032?style=flat-square&logo=react&logoColor=60A5FA" alt="React"/>
-    <img src="https://img.shields.io/badge/TypeScript-162032?style=flat-square&logo=typescript&logoColor=60A5FA" alt="TypeScript"/>
-    <img src="https://img.shields.io/badge/Vite-162032?style=flat-square&logo=vite&logoColor=60A5FA" alt="Vite"/>
-    <img src="https://img.shields.io/badge/TailwindCSS-162032?style=flat-square&logo=tailwindcss&logoColor=60A5FA" alt="Tailwind"/>
-    <img src="https://img.shields.io/badge/Streamlit-162032?style=flat-square&logo=streamlit&logoColor=60A5FA" alt="Streamlit"/>
-    <img src="https://img.shields.io/badge/Plotly-162032?style=flat-square&logo=plotly&logoColor=60A5FA" alt="Plotly"/>
-  </div>
-
-  <p style="margin: 0 0 10px 0; font-size: 0.78rem; font-weight: 600; color: #60A5FA; letter-spacing: 1.2px; text-transform: uppercase;">
-    Developer Tools
-  </p>
-  <div>
-    <img src="https://img.shields.io/badge/Git-162032?style=flat-square&logo=git&logoColor=60A5FA" alt="Git"/>
-    <img src="https://img.shields.io/badge/GitHub_Actions-162032?style=flat-square&logo=githubactions&logoColor=60A5FA" alt="GitHub Actions"/>
-    <img src="https://img.shields.io/badge/Docker-162032?style=flat-square&logo=docker&logoColor=60A5FA" alt="Docker"/>
-    <img src="https://img.shields.io/badge/Power_BI-162032?style=flat-square&logo=powerbi&logoColor=60A5FA" alt="Power BI"/>
-    <img src="https://img.shields.io/badge/Tableau-162032?style=flat-square&logo=tableau&logoColor=60A5FA" alt="Tableau"/>
-    <img src="https://img.shields.io/badge/VS_Code-162032?style=flat-square&logo=visualstudiocode&logoColor=60A5FA" alt="VS Code"/>
-  </div>
-
+  <img src="https://img.shields.io/badge/Python-162032?style=flat-square&logo=python&logoColor=60A5FA" alt="Python"/>
+  <img src="https://img.shields.io/badge/PyTorch-162032?style=flat-square&logo=pytorch&logoColor=60A5FA" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/LangGraph-162032?style=flat-square&logoColor=60A5FA" alt="LangGraph"/>
+  <img src="https://img.shields.io/badge/FastAPI-162032?style=flat-square&logo=fastapi&logoColor=60A5FA" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/React_19-162032?style=flat-square&logo=react&logoColor=60A5FA" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-162032?style=flat-square&logo=typescript&logoColor=60A5FA" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Supabase-162032?style=flat-square&logo=supabase&logoColor=60A5FA" alt="Supabase"/>
+  <img src="https://img.shields.io/badge/OpenCV-162032?style=flat-square&logo=opencv&logoColor=60A5FA" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/Docker-162032?style=flat-square&logo=docker&logoColor=60A5FA" alt="Docker"/>
 </div>
 
 <img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
 
-<!-- GITHUB ANALYTICS -->
-<h3 style="color: #CBD5E1; font-size: 1.15rem; margin-top: 28px; margin-bottom: 14px; letter-spacing: 0.5px;">
-  ◈ GitHub Analytics
-</h3>
-
-<div align="center" style="margin-bottom: 28px;">
-
+<!-- Item 5: GitHub Analytics — no heading, just the two cards, placed quietly before footer -->
+<div align="center" style="margin-top: 28px; margin-bottom: 28px;">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=GauriShinde911&show_icons=true&count_private=true&theme=tokyonight&hide_border=true"/>
-
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GauriShinde911&layout=compact&theme=tokyonight&hide_border=true"/>
-
 </div>
 
 <img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
 
-<!-- LEARNING JOURNEY -->
-<h3 style="color: #CBD5E1; font-size: 1.15rem; margin-top: 28px; margin-bottom: 14px; letter-spacing: 0.5px;">
-  ◈ Learning Journey
-</h3>
-
-<div align="center" style="margin-bottom: 28px;">
-  <img src="assets/timeline.svg" width="100%" alt="Learning Journey Timeline: 2024 Python -> 2025 Deep Learning -> 2026 Autonomous AI Agents -> NEXT AI Product Management" />
-</div>
-
-<img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
-
-<!-- FOOTER -->
+<!-- FOOTER (kept unchanged) -->
 <div align="center" style="margin-top: 32px; margin-bottom: 24px;">
   <p style="color: #94A3B8; font-size: 0.92rem; letter-spacing: 0.3px; margin-bottom: 8px;">
     Open to AI Engineering, AI Product and Research opportunities.
