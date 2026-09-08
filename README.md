@@ -76,8 +76,8 @@
       <p style="color: #60A5FA; font-weight: 700; font-size: 0.78rem; letter-spacing: 1.2px; text-transform: uppercase; margin: 0 0 8px 0;">
         CURRENTLY READING
       </p>
-      <p style="color: #CBD5E1; font-size: 0.88rem; line-height: 1.5; margin: 0;">
-        [paper or book title — personalize this]
+      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.5; margin: 0; font-style: italic;">
+        Coming soon
       </p>
     </td>
   </tr>
@@ -85,15 +85,15 @@
 
 <img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
 
-<!-- FEATURED PROJECTS — top 3 only (item 3: Deep Learning dropped) -->
+<!-- FEATURED PROJECTS — 2x2 grid -->
 <h3 style="color: #CBD5E1; font-size: 1.15rem; margin-top: 28px; margin-bottom: 14px; letter-spacing: 0.5px;">
   ◈ Featured Projects
 </h3>
 
-<!-- ROW 1: SEA Agent (full width) -->
+<!-- ROW 1: SEA Agent | Deep Learning Portfolio -->
 <table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: separate; border-spacing: 12px; margin-left: -12px; margin-right: -12px; margin-bottom: 0;">
   <tr>
-    <td valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
+    <td width="50%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
       <a href="https://github.com/GauriShinde911/smart-event-analytics-agent">
         <img src="assets/card_sea_agent.svg" width="100%" style="border-radius: 8px; margin-bottom: 12px; display: block;" alt="SEA Agent" />
       </a>
@@ -102,12 +102,8 @@
           SEA Agent
         </a>
       </h3>
-      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; margin: 0 0 6px 0;">
+      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; min-height: 38px; margin: 0 0 12px 0;">
         Autonomous decision intelligence agent with deterministic state graphs and runtime guardrails.
-      </p>
-      <!-- Item 7: outcome metric placeholder (accent blue) -->
-      <p style="color: #60A5FA; font-size: 0.86rem; line-height: 1.4; margin: 0 0 12px 0;">
-        📊 [insert metric — e.g. cuts manual triage by ~40% in test runs]
       </p>
       <div style="margin-bottom: 12px;">
         <img src="https://img.shields.io/badge/FastAPI-162032?style=flat-square&logo=fastapi&logoColor=60A5FA" alt="FastAPI"/>
@@ -118,10 +114,31 @@
         View Repository →
       </a>
     </td>
+    <td width="50%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
+      <a href="https://github.com/GauriShinde911/deep-learning-portfolio">
+        <img src="assets/card_deep_learning.svg" width="100%" style="border-radius: 8px; margin-bottom: 12px; display: block;" alt="Deep Learning Portfolio" />
+      </a>
+      <h3 style="margin: 0 0 6px 0;">
+        <a href="https://github.com/GauriShinde911/deep-learning-portfolio" style="color: #FFFFFF; text-decoration: none; font-size: 1.1rem; font-weight: 700;">
+          Deep Learning Portfolio
+        </a>
+      </h3>
+      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; min-height: 38px; margin: 0 0 12px 0;">
+        Neural network implementations covering CNNs, GANs, and transfer learning architectures.
+      </p>
+      <div style="margin-bottom: 12px;">
+        <img src="https://img.shields.io/badge/PyTorch-162032?style=flat-square&logo=pytorch&logoColor=60A5FA" alt="PyTorch"/>
+        <img src="https://img.shields.io/badge/TensorFlow-162032?style=flat-square&logo=tensorflow&logoColor=60A5FA" alt="TensorFlow"/>
+        <img src="https://img.shields.io/badge/Scikit--Learn-162032?style=flat-square&logo=scikitlearn&logoColor=60A5FA" alt="Scikit-Learn"/>
+      </div>
+      <a href="https://github.com/GauriShinde911/deep-learning-portfolio" style="color: #60A5FA; text-decoration: none; font-size: 0.88rem; font-weight: 500;">
+        View Repository →
+      </a>
+    </td>
   </tr>
 </table>
 
-<!-- ROW 2: HomeBite + Agritech side by side -->
+<!-- ROW 2: HomeBite | Agritech Weed Detection -->
 <table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: separate; border-spacing: 12px; margin-left: -12px; margin-right: -12px; margin-top: 0; margin-bottom: 24px;">
   <tr>
     <td width="50%" valign="top" style="background: #0D1726; border: 1px solid #1E293B; border-radius: 12px; padding: 18px;">
@@ -133,12 +150,8 @@
           HomeBite (Published Research)
         </a>
       </h3>
-      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; margin: 0 0 6px 0;">
+      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; min-height: 38px; margin: 0 0 12px 0;">
         AI nutrition scoring and demand forecasting platform connecting home cooks with subscribers.
-      </p>
-      <!-- Item 7: outcome metric placeholder -->
-      <p style="color: #60A5FA; font-size: 0.86rem; line-height: 1.4; margin: 0 0 12px 0;">
-        📊 [insert metric — e.g. nutrition scoring accuracy improved by ~X% vs baseline]
       </p>
       <div style="margin-bottom: 12px;">
         <img src="https://img.shields.io/badge/React_19-162032?style=flat-square&logo=react&logoColor=60A5FA" alt="React"/>
@@ -158,12 +171,8 @@
           Agritech Weed Detection
         </a>
       </h3>
-      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; margin: 0 0 6px 0;">
+      <p style="color: #94A3B8; font-size: 0.88rem; line-height: 1.45; min-height: 38px; margin: 0 0 12px 0;">
         Computer vision segmentation pipeline with automated HSV mask generation for targeted crop spraying.
-      </p>
-      <!-- Item 7: outcome metric placeholder -->
-      <p style="color: #60A5FA; font-size: 0.86rem; line-height: 1.4; margin: 0 0 12px 0;">
-        📊 [insert metric — e.g. weed detection mIoU of ~X% on field test dataset]
       </p>
       <div style="margin-bottom: 12px;">
         <img src="https://img.shields.io/badge/PyTorch-162032?style=flat-square&logo=pytorch&logoColor=60A5FA" alt="PyTorch"/>
@@ -212,10 +221,7 @@
   <img src="assets/architecture_flow.svg" width="100%" alt="How I Build AI Products: Problem -> Data -> AI Intelligence -> Guardrails -> Decision Engine -> User Experience" />
 </div>
 
-<!-- Item 8: personal reflection line -->
-<p style="color: #94A3B8; font-size: 0.88rem; font-style: italic; line-height: 1.55; margin-bottom: 28px;">
-  [personalize: e.g. "I got burned once by an agent that looked smart in the demo and hallucinated in production — guardrails aren't optional anymore for me."]
-</p>
+
 
 <img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
 
