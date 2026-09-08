@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="100%" height="140" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="timeline-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D1A" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <!-- Line Gradient -->
+    <linearGradient id="line-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="35%" stop-color="#38BDF8"/>
+      <stop offset="70%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <filter id="node-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .year-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 700; fill: #38BDF8; letter-spacing: 0.5px; }
+    .desc-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 500; fill: #E2E8F0; }
+    .sub-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 9px; font-weight: 400; fill: #94A3B8; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="136" rx="12" fill="url(#timeline-bg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Connecting Gradient Line -->
+  <line x1="110" y1="50" x2="740" y2="50" stroke="url(#line-gradient)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Milestone 1: 2024 -->
+  <g transform="translate(110, 50)">
+    <circle cx="0" cy="0" r="10" fill="#030712" stroke="#0284C7" stroke-width="3"/>
+    <circle cx="0" cy="0" r="4" fill="#38BDF8"/>
+    <text x="0" y="-18" text-anchor="middle" class="year-label">2024</text>
+    <text x="0" y="28" text-anchor="middle" class="desc-label">Python Foundations</text>
+    <text x="0" y="44" text-anchor="middle" class="sub-label">OOP &amp; Core Systems</text>
+  </g>
+
+  <!-- Milestone 2: 2025 -->
+  <g transform="translate(320, 50)">
+    <circle cx="0" cy="0" r="10" fill="#030712" stroke="#38BDF8" stroke-width="3"/>
+    <circle cx="0" cy="0" r="4" fill="#38BDF8"/>
+    <text x="0" y="-18" text-anchor="middle" class="year-label">2025</text>
+    <text x="0" y="28" text-anchor="middle" class="desc-label">Deep Learning</text>
+    <text x="0" y="44" text-anchor="middle" class="sub-label">CNNs, RNNs &amp; Vision</text>
+  </g>
+
+  <!-- Milestone 3: 2026 -->
+  <g transform="translate(530, 50)">
+    <circle cx="0" cy="0" r="12" fill="#0F172A" stroke="#818CF8" stroke-width="3.5" filter="url(#node-glow)"/>
+    <circle cx="0" cy="0" r="5" fill="#38BDF8"/>
+    <text x="0" y="-20" text-anchor="middle" class="year-label" fill="#818CF8">2026</text>
+    <text x="0" y="28" text-anchor="middle" class="desc-label">Autonomous Agents</text>
+    <text x="0" y="44" text-anchor="middle" class="sub-label">LangGraph &amp; Decision AI</text>
+  </g>
+
+  <!-- Milestone 4: NEXT -->
+  <g transform="translate(740, 50)">
+    <circle cx="0" cy="0" r="10" fill="#030712" stroke="#C084FC" stroke-width="3" stroke-dasharray="3,3"/>
+    <circle cx="0" cy="0" r="4" fill="#C084FC"/>
+    <text x="0" y="-18" text-anchor="middle" class="year-label" fill="#C084FC">NEXT</text>
+    <text x="0" y="28" text-anchor="middle" class="desc-label">AI Product Mgmt</text>
+    <text x="0" y="44" text-anchor="middle" class="sub-label">Strategy &amp; Evaluation</text>
+  </g>
+</svg>

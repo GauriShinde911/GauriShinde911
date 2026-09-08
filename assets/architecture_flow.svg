@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 130" width="100%" height="130" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D1A" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient -->
+    <linearGradient id="blue-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+
+    <!-- Node Gradient -->
+    <linearGradient id="node-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+
+    <!-- Filter for Glow Effects -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 700; fill: #38BDF8; letter-spacing: 1.5px; text-transform: uppercase; }
+    .node-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; font-weight: 600; fill: #F1F5F9; }
+    .node-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 9px; font-weight: 400; fill: #94A3B8; }
+    .arrow { stroke: #38BDF8; stroke-width: 1.5; stroke-dasharray: 4,4; opacity: 0.6; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="126" rx="12" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Connecting Line -->
+  <path d="M 90 70 L 760 70" stroke="url(#blue-glow)" stroke-width="2" opacity="0.3"/>
+  <path d="M 90 70 L 760 70" class="arrow"/>
+
+  <!-- STEP 1: Problem -->
+  <g transform="translate(45, 38)">
+    <rect x="0" y="0" width="105" height="64" rx="8" fill="url(#node-grad)" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="52.5" cy="0" r="3" fill="#38BDF8" filter="url(#glow)"/>
+    <text x="52.5" y="26" text-anchor="middle" class="node-title">01. Problem</text>
+    <text x="52.5" y="44" text-anchor="middle" class="node-sub">Root Cause Analysis</text>
+  </g>
+
+  <!-- STEP 2: Data -->
+  <g transform="translate(180, 38)">
+    <rect x="0" y="0" width="105" height="64" rx="8" fill="url(#node-grad)" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="52.5" cy="0" r="3" fill="#38BDF8" filter="url(#glow)"/>
+    <text x="52.5" y="26" text-anchor="middle" class="node-title">02. Data</text>
+    <text x="52.5" y="44" text-anchor="middle" class="node-sub">Curated Schemas</text>
+  </g>
+
+  <!-- STEP 3: Intelligence -->
+  <g transform="translate(315, 38)">
+    <rect x="0" y="0" width="110" height="64" rx="8" fill="url(#node-grad)" stroke="#38BDF8" stroke-width="1.5" filter="url(#glow)"/>
+    <circle cx="55" cy="0" r="3.5" fill="#38BDF8"/>
+    <text x="55" y="26" text-anchor="middle" class="node-title" fill="#38BDF8">03. Intelligence</text>
+    <text x="55" y="44" text-anchor="middle" class="node-sub">LLMs &amp; Agents</text>
+  </g>
+
+  <!-- STEP 4: Guardrails -->
+  <g transform="translate(455, 38)">
+    <rect x="0" y="0" width="105" height="64" rx="8" fill="url(#node-grad)" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="52.5" cy="0" r="3" fill="#38BDF8" filter="url(#glow)"/>
+    <text x="52.5" y="26" text-anchor="middle" class="node-title">04. Guardrails</text>
+    <text x="52.5" y="44" text-anchor="middle" class="node-sub">Deterministic Eval</text>
+  </g>
+
+  <!-- STEP 5: Decision Engine -->
+  <g transform="translate(590, 38)">
+    <rect x="0" y="0" width="105" height="64" rx="8" fill="url(#node-grad)" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="52.5" cy="0" r="3" fill="#38BDF8" filter="url(#glow)"/>
+    <text x="52.5" y="26" text-anchor="middle" class="node-title">05. Decisions</text>
+    <text x="52.5" y="44" text-anchor="middle" class="node-sub">State Machines</text>
+  </g>
+
+  <!-- STEP 6: UX -->
+  <g transform="translate(725, 38)">
+    <rect x="0" y="0" width="95" height="64" rx="8" fill="url(#node-grad)" stroke="#1E293B" stroke-width="1.2"/>
+    <circle cx="47.5" cy="0" r="3" fill="#38BDF8" filter="url(#glow)"/>
+    <text x="47.5" y="26" text-anchor="middle" class="node-title">06. UX</text>
+    <text x="47.5" y="44" text-anchor="middle" class="node-sub">Reliable Product</text>
+  </g>
+</svg>
