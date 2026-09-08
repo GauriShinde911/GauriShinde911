@@ -218,7 +218,7 @@
         PRODUCT MANAGEMENT &amp; STRATEGY
       </p>
       <h4 style="margin: 0 0 8px 0; font-size: 1.15rem; font-weight: 700; color: #FFFFFF;">
-        <a href="https://github.com/GauriShinde911/ai-product-case-studies" style="color: #FFFFFF; text-decoration: none;">
+        <a href="https://github.com/GauriShinde911/ai-product-case-study" style="color: #FFFFFF; text-decoration: none;">
           AI Product Case Studies &amp; PRDs ↗
         </a>
       </h4>
@@ -226,7 +226,7 @@
         Comprehensive Product Requirement Documents (PRDs), User Personas, Success Metrics frameworks, and Strategic Roadmaps for production AI systems.
       </p>
       <div>
-        <a href="https://github.com/GauriShinde911/ai-product-case-studies" style="color: #60A5FA; text-decoration: none; font-size: 0.88rem; font-weight: 500;">
+        <a href="https://github.com/GauriShinde911/ai-product-case-study" style="color: #60A5FA; text-decoration: none; font-size: 0.88rem; font-weight: 500;">
           Explore PRDs &amp; Roadmaps →
         </a>
       </div>
