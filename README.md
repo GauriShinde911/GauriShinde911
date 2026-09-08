@@ -21,16 +21,16 @@
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&color=0B1120" alt="LinkedIn" />
     </a>
     &nbsp;
-    <a href="mailto:gaurishinde20605@gmail.com">
+    <a href="mailto:shindegauri2005@gmail.com">
       <img src="https://img.shields.io/badge/Email-38BDF8?style=for-the-badge&logo=gmail&logoColor=white&color=0B1120" alt="Email" />
     </a>
     &nbsp;
-    <a href="https://github.com/GauriShinde911">
-      <img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-64748B?style=for-the-badge&logo=safari&logoColor=white&color=0B1120" alt="Portfolio" />
+    <a href="assets/Gauri_Shinde_Resume.md">
+      <img src="https://img.shields.io/badge/View_Resume-818CF8?style=for-the-badge&logo=googledocs&logoColor=white&color=0B1120" alt="Resume" />
     </a>
     &nbsp;
-    <a href="mailto:gaurishinde20605@gmail.com?subject=Resume%20Request%20-%20Gauri%20Shinde">
-      <img src="https://img.shields.io/badge/Resume-Request%20PDF-818CF8?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&color=0B1120" alt="Resume" />
+    <a href="https://doi.org/10.31871/WJIR.20.4.15" target="_blank">
+      <img src="https://img.shields.io/badge/Published_Paper-WJIR_2026-38BDF8?style=for-the-badge&logo=academia&logoColor=white&color=0B1120" alt="Publication" />
     </a>
   </div>
 
@@ -46,14 +46,14 @@
         ⚡ Currently Building
       </p>
       <p style="margin: 0 0 14px 0; color: #E2E8F0; font-size: 0.98rem; line-height: 1.5;">
-        Engineering deterministic AI pipelines, multi-agent evaluation suites, and scalable full-stack interfaces.
+        Building <b>DEMS (Mission Specialist)</b> enterprise platform at <b>Delta IoT Solutions</b>, and researching autonomous agent evaluation pipelines.
       </p>
       <div>
         <img src="https://img.shields.io/badge/Autonomous%20AI%20Agents-0F172A?style=flat-square&color=0F172A&labelColor=0369A1&label=•" alt="Agents" />
         <img src="https://img.shields.io/badge/Decision%20Intelligence-0F172A?style=flat-square&color=0F172A&labelColor=0284C7&label=•" alt="Decision" />
         <img src="https://img.shields.io/badge/LLM%20Evaluation-0F172A?style=flat-square&color=0F172A&labelColor=0EA5E9&label=•" alt="Eval" />
         <img src="https://img.shields.io/badge/Multi--Agent%20Workflows-0F172A?style=flat-square&color=0F172A&labelColor=38BDF8&label=•" alt="Workflows" />
-        <img src="https://img.shields.io/badge/FastAPI%20%2B%20Streamlit%20Products-0F172A?style=flat-square&color=0F172A&labelColor=818CF8&label=•" alt="FullStack" />
+        <img src="https://img.shields.io/badge/React%20%2B%20FastAPI%20FullStack-0F172A?style=flat-square&color=0F172A&labelColor=818CF8&label=•" alt="FullStack" />
       </div>
     </td>
   </tr>
@@ -69,19 +69,19 @@
     <td width="33.33%" valign="top" style="background: #0B1120; border: 1px solid #1E293B; border-radius: 10px; padding: 18px 20px;">
       <p style="color: #38BDF8; font-weight: 700; font-size: 1.05rem; margin: 0 0 8px 0;">01. AI Engineering</p>
       <p style="color: #94A3B8; font-size: 0.9rem; line-height: 1.5; margin: 0;">
-        Multi-agent systems, deterministic LLM pipelines, deep learning, computer vision.
+        Multi-agent systems, deterministic LLM pipelines, deep learning, and computer vision (U-Net, OpenCV).
       </p>
     </td>
     <td width="33.33%" valign="top" style="background: #0B1120; border: 1px solid #1E293B; border-radius: 10px; padding: 18px 20px;">
       <p style="color: #818CF8; font-weight: 700; font-size: 1.05rem; margin: 0 0 8px 0;">02. Product Thinking</p>
       <p style="color: #94A3B8; font-size: 0.9rem; line-height: 1.5; margin: 0;">
-        Translating machine learning into scalable business products with measurable ROI.
+        Translating machine learning models into full-stack enterprise systems with measurable ROI. Certified in ML for PM.
       </p>
     </td>
     <td width="33.33%" valign="top" style="background: #0B1120; border: 1px solid #1E293B; border-radius: 10px; padding: 18px 20px;">
       <p style="color: #38BDF8; font-weight: 700; font-size: 1.05rem; margin: 0 0 8px 0;">03. Vision</p>
       <p style="color: #94A3B8; font-size: 0.9rem; line-height: 1.5; margin: 0;">
-        Privacy-first, reliable AI experiences built for real-world decision making.
+        Privacy-first, deterministic, and auditable AI experiences engineered for real-world decision making.
       </p>
     </td>
   </tr>
@@ -90,7 +90,7 @@
 ---
 
 <!-- FEATURED PROJECTS -->
-### ◈ Featured Projects
+### ◈ Featured Projects & Research
 
 <table width="100%" style="border-collapse: separate; border-spacing: 12px; margin-left: -12px; margin-right: -12px;">
   <!-- ROW 1 -->
@@ -115,18 +115,18 @@
     </td>
     <td width="50%" valign="top" style="background: #0B1120; border: 1px solid #1E293B; border-radius: 10px; padding: 20px;">
       <h3 style="margin: 0 0 8px 0; color: #F8FAFC;">
-        <a href="https://github.com/GauriShinde911/deep-learning-portfolio" style="color: #38BDF8; text-decoration: none;">Deep Learning Portfolio ↗</a>
+        <a href="https://github.com/GauriShinde911/home-bite" style="color: #38BDF8; text-decoration: none;">HomeBite (Published Research) ↗</a>
       </h3>
       <p style="color: #94A3B8; font-size: 0.92rem; line-height: 1.5; min-height: 44px; margin: 0 0 14px 0;">
-        Computer vision and neural network portfolio covering CNNs, RNNs, GANs and transfer learning.
+        AI-assisted meal recommendation &amp; tiffin subscription platform. Published in WJIR, Vol. 20, Issue 4, April 2026.
       </p>
       <div style="margin-bottom: 14px;">
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
-        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-Learn"/>
+        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/>
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
+        <img src="https://img.shields.io/badge/DOI-10.31871%2FWJIR.20.4.15-0284C7?style=flat-square" alt="DOI"/>
       </div>
-      <a href="https://github.com/GauriShinde911/deep-learning-portfolio">
+      <a href="https://github.com/GauriShinde911/home-bite">
         <img src="https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=38BDF8" alt="GitHub Repo"/>
       </a>
     </td>
@@ -135,36 +135,34 @@
   <tr>
     <td width="50%" valign="top" style="background: #0B1120; border: 1px solid #1E293B; border-radius: 10px; padding: 20px;">
       <h3 style="margin: 0 0 8px 0; color: #F8FAFC;">
-        <a href="https://github.com/GauriShinde911/home-bite" style="color: #38BDF8; text-decoration: none;">HomeBite ↗</a>
+        <a href="https://github.com/GauriShinde911/weed-detection-ai-agritech-case-study" style="color: #38BDF8; text-decoration: none;">Smart Agritech - Weed Segmentation ↗</a>
       </h3>
       <p style="color: #94A3B8; font-size: 0.92rem; line-height: 1.5; min-height: 44px; margin: 0 0 14px 0;">
-        AI-powered subscription platform for home chefs with taste memory and live tracking.
+        U-Net segmentation pipeline in PyTorch with automated HSV mask generation and targeted spraying ROI modeling.
       </p>
       <div style="margin-bottom: 14px;">
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
-        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
+        <img src="https://img.shields.io/badge/U--Net-0284C7?style=flat-square" alt="U-Net"/>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit"/>
       </div>
-      <a href="https://github.com/GauriShinde911/home-bite">
+      <a href="https://github.com/GauriShinde911/weed-detection-ai-agritech-case-study">
         <img src="https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=38BDF8" alt="GitHub Repo"/>
       </a>
     </td>
     <td width="50%" valign="top" style="background: #0B1120; border: 1px solid #1E293B; border-radius: 10px; padding: 20px;">
       <h3 style="margin: 0 0 8px 0; color: #F8FAFC;">
-        <a href="https://github.com/GauriShinde911/weed-detection-ai-agritech-case-study" style="color: #38BDF8; text-decoration: none;">Agritech Weed Detection ↗</a>
+        <a href="https://github.com/GauriShinde911/deep-learning-portfolio" style="color: #38BDF8; text-decoration: none;">Deep Learning Portfolio ↗</a>
       </h3>
       <p style="color: #94A3B8; font-size: 0.92rem; line-height: 1.5; min-height: 44px; margin: 0 0 14px 0;">
-        Precision agriculture case study using computer vision for targeted weed spraying and ROI modelling.
+        Computer vision and neural network portfolio covering CNNs, RNNs, GANs, and transfer learning architectures.
       </p>
       <div style="margin-bottom: 14px;">
-        <img src="https://img.shields.io/badge/Computer_Vision-38BDF8?style=flat-square&logo=opencv&logoColor=white&color=0F172A" alt="CV"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit"/>
-        <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly"/>
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-Learn"/>
       </div>
-      <a href="https://github.com/GauriShinde911/weed-detection-ai-agritech-case-study">
+      <a href="https://github.com/GauriShinde911/deep-learning-portfolio">
         <img src="https://img.shields.io/badge/View_Repository-0F172A?style=flat-square&logo=github&logoColor=38BDF8" alt="GitHub Repo"/>
       </a>
     </td>
@@ -178,7 +176,7 @@
 
 <div style="background: #0B1120; border: 1px solid #1E293B; border-radius: 10px; padding: 18px 24px; margin-bottom: 24px;">
 
-  <p style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 700; color: #38BDF8; letter-spacing: 1px; text-transform: uppercase;">AI / ML</p>
+  <p style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 700; color: #38BDF8; letter-spacing: 1px; text-transform: uppercase;">AI / Machine Learning</p>
   <div style="margin-bottom: 16px;">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
     <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch"/>
@@ -187,32 +185,37 @@
     <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
     <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" alt="NumPy"/>
     <img src="https://img.shields.io/badge/LangGraph-0284C7?style=flat&logoColor=white" alt="LangGraph"/>
+    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white" alt="OpenCV"/>
   </div>
 
-  <p style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 700; color: #38BDF8; letter-spacing: 1px; text-transform: uppercase;">Backend</p>
+  <p style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 700; color: #38BDF8; letter-spacing: 1px; text-transform: uppercase;">Backend &amp; Databases</p>
   <div style="margin-bottom: 16px;">
     <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI"/>
-    <img src="https://img.shields.io/badge/REST_API-0F172A?style=flat&logo=postman&logoColor=38BDF8" alt="REST"/>
-    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" alt="Supabase"/>
+    <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+    <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white" alt="Express"/>
+    <img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=flat&logo=prisma&logoColor=white" alt="Prisma"/>
     <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" alt="Supabase"/>
     <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQLite"/>
   </div>
 
-  <p style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 700; color: #38BDF8; letter-spacing: 1px; text-transform: uppercase;">Frontend</p>
+  <p style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 700; color: #38BDF8; letter-spacing: 1px; text-transform: uppercase;">Frontend &amp; Visualization</p>
   <div style="margin-bottom: 16px;">
-    <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React"/>
+    <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat&logo=react&logoColor=black" alt="React"/>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
     <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite"/>
-    <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+    <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
     <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white" alt="Streamlit"/>
     <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white" alt="Plotly"/>
   </div>
 
-  <p style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 700; color: #38BDF8; letter-spacing: 1px; text-transform: uppercase;">Tools</p>
+  <p style="margin: 0 0 8px 0; font-size: 0.85rem; font-weight: 700; color: #38BDF8; letter-spacing: 1px; text-transform: uppercase;">Developer Tools &amp; BI</p>
   <div>
     <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git"/>
     <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
     <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/>
-    <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white" alt="Postman"/>
+    <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black" alt="Power BI"/>
+    <img src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white" alt="Tableau"/>
     <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
   </div>
 
