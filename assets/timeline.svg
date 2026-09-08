@@ -1,70 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 160" width="100%" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 140" width="100%" fill="none">
   <defs>
-    <linearGradient id="tl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712"/>
-      <stop offset="100%" stop-color="#0B1120"/>
-    </linearGradient>
-    <linearGradient id="tl-line" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284C7"/>
-      <stop offset="40%" stop-color="#38BDF8"/>
-      <stop offset="75%" stop-color="#818CF8"/>
-      <stop offset="100%" stop-color="#C084FC"/>
-    </linearGradient>
-    <filter id="tl-glow">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
+    <style>
+      .tl-year { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 700; }
+      .tl-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; font-weight: 600; fill: #E2E8F0; }
+      .tl-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 9px; font-weight: 400; fill: #64748B; }
+    </style>
   </defs>
 
-  <style>
-    .tl-year { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 800; letter-spacing: 0.5px; }
-    .tl-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 600; fill: #E2E8F0; }
-    .tl-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 9.5px; font-weight: 400; fill: #64748B; }
-  </style>
+  <!-- Container Surface -->
+  <rect width="840" height="140" rx="12" fill="#0D1726"/>
+  <rect x="0.5" y="0.5" width="839" height="139" rx="11.5" stroke="#1E293B" stroke-width="1"/>
 
-  <!-- Background -->
-  <rect width="840" height="160" rx="14" fill="url(#tl-bg)"/>
-  <rect x="1" y="1" width="838" height="158" rx="13" fill="none" stroke="#1E293B" stroke-width="1"/>
-
-  <!-- Gradient Connector -->
-  <line x1="105" y1="60" x2="735" y2="60" stroke="url(#tl-line)" stroke-width="3" stroke-linecap="round"/>
-
-  <!-- Glow behind active node -->
-  <circle cx="525" cy="60" r="22" fill="#38BDF8" opacity="0.08"/>
+  <!-- Subtle Timeline Axis Line -->
+  <line x1="105" y1="52" x2="735" y2="52" stroke="#1E293B" stroke-width="1.5"/>
+  <line x1="105" y1="52" x2="525" y2="52" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
 
   <!-- 2024 -->
-  <g transform="translate(105, 60)">
-    <circle r="11" fill="#030712" stroke="#0284C7" stroke-width="2.5"/>
-    <circle r="4.5" fill="#0284C7"/>
-    <text x="0" y="-22" text-anchor="middle" class="tl-year" fill="#0284C7">2024</text>
-    <text x="0" y="30" text-anchor="middle" class="tl-title">Python Foundations</text>
-    <text x="0" y="46" text-anchor="middle" class="tl-sub">OOP &amp; Core Systems</text>
+  <g transform="translate(105, 52)">
+    <circle r="10" fill="#0D1726" stroke="#253347" stroke-width="1.5"/>
+    <circle r="3.5" fill="#60A5FA"/>
+    <text x="0" y="-18" text-anchor="middle" class="tl-year" fill="#94A3B8">2024</text>
+    <text x="0" y="26" text-anchor="middle" class="tl-title">Python</text>
+    <text x="0" y="40" text-anchor="middle" class="tl-sub">Foundations &amp; OOP</text>
   </g>
 
   <!-- 2025 -->
-  <g transform="translate(315, 60)">
-    <circle r="11" fill="#030712" stroke="#38BDF8" stroke-width="2.5"/>
-    <circle r="4.5" fill="#38BDF8"/>
-    <text x="0" y="-22" text-anchor="middle" class="tl-year" fill="#38BDF8">2025</text>
-    <text x="0" y="30" text-anchor="middle" class="tl-title">Deep Learning</text>
-    <text x="0" y="46" text-anchor="middle" class="tl-sub">CNNs, GANs &amp; Vision</text>
+  <g transform="translate(315, 52)">
+    <circle r="10" fill="#0D1726" stroke="#253347" stroke-width="1.5"/>
+    <circle r="3.5" fill="#60A5FA"/>
+    <text x="0" y="-18" text-anchor="middle" class="tl-year" fill="#94A3B8">2025</text>
+    <text x="0" y="26" text-anchor="middle" class="tl-title">Deep Learning</text>
+    <text x="0" y="40" text-anchor="middle" class="tl-sub">Vision &amp; Neural Nets</text>
   </g>
 
   <!-- 2026 (Active) -->
-  <g transform="translate(525, 60)">
-    <circle r="14" fill="#0F172A" stroke="#818CF8" stroke-width="3" filter="url(#tl-glow)"/>
-    <circle r="5.5" fill="#38BDF8"/>
-    <text x="0" y="-26" text-anchor="middle" class="tl-year" fill="#818CF8">2026</text>
-    <text x="0" y="32" text-anchor="middle" class="tl-title" fill="#F8FAFC">Autonomous Agents</text>
-    <text x="0" y="48" text-anchor="middle" class="tl-sub" fill="#94A3B8">LangGraph &amp; Decision AI</text>
+  <g transform="translate(525, 52)">
+    <circle r="12" fill="#162032" stroke="#60A5FA" stroke-width="1.5"/>
+    <circle r="4.5" fill="#60A5FA"/>
+    <text x="0" y="-20" text-anchor="middle" class="tl-year" fill="#60A5FA">2026</text>
+    <text x="0" y="26" text-anchor="middle" class="tl-title" fill="#FFFFFF">Autonomous AI Agents</text>
+    <text x="0" y="40" text-anchor="middle" class="tl-sub" fill="#94A3B8">Decision Systems</text>
   </g>
 
   <!-- NEXT -->
-  <g transform="translate(735, 60)">
-    <circle r="11" fill="#030712" stroke="#C084FC" stroke-width="2.5" stroke-dasharray="3,3"/>
-    <circle r="4.5" fill="#C084FC"/>
-    <text x="0" y="-22" text-anchor="middle" class="tl-year" fill="#C084FC">NEXT</text>
-    <text x="0" y="30" text-anchor="middle" class="tl-title">AI Product Mgmt</text>
-    <text x="0" y="46" text-anchor="middle" class="tl-sub">Strategy &amp; Evaluation</text>
+  <g transform="translate(735, 52)">
+    <circle r="10" fill="#0D1726" stroke="#253347" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <circle r="3.5" fill="#94A3B8"/>
+    <text x="0" y="-18" text-anchor="middle" class="tl-year" fill="#64748B">NEXT</text>
+    <text x="0" y="26" text-anchor="middle" class="tl-title">AI Product Mgmt</text>
+    <text x="0" y="40" text-anchor="middle" class="tl-sub">Strategy &amp; Systems</text>
   </g>
 </svg>

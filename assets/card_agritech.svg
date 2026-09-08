@@ -1,36 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" fill="none">
-  <defs>
-    <linearGradient id="agri-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712"/>
-      <stop offset="50%" stop-color="#08201A"/>
-      <stop offset="100%" stop-color="#030712"/>
-    </linearGradient>
-    <radialGradient id="agri-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="640" height="360" rx="14" fill="url(#agri-bg)"/>
-  <circle cx="320" cy="180" r="180" fill="url(#agri-glow)"/>
+  <rect width="640" height="360" rx="10" fill="#0D1726"/>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="9.5" stroke="#1E293B" stroke-width="1"/>
 
   <!-- Subtle Grid -->
-  <path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M120 0v360M240 0v360M360 0v360M480 0v360" stroke="#1E293B" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.35"/>
+  <path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M120 0v360M240 0v360M360 0v360M480 0v360" stroke="#162032" stroke-width="0.8" stroke-dasharray="2,2"/>
 
-  <!-- Computer Vision Bounding Boxes & Mask Graphic -->
-  <g opacity="0.85" transform="translate(320, 155)">
-    <!-- Bounding reticle -->
-    <rect x="-80" y="-55" width="160" height="110" rx="6" fill="none" stroke="#10B981" stroke-width="1.5" stroke-dasharray="6,4"/>
-    <path d="M-80 -40v-15h15M65 -55h15v15M80 40v15h-15M-65 55h-15v-15" stroke="#34D399" stroke-width="2.5"/>
-    <!-- Detected contour mask -->
-    <path d="M-40 -15 C -20 -40, 30 -30, 45 -10 C 60 15, 20 40, -15 35 C -50 30, -60 10, -40 -15 Z" fill="#10B981" fill-opacity="0.25" stroke="#34D399" stroke-width="2"/>
-    <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">IoU: 0.89 • U-Net</text>
+  <!-- Computer Vision Bounding Boxes Graphic -->
+  <g transform="translate(320, 155)">
+    <rect x="-70" y="-45" width="140" height="90" rx="4" fill="none" stroke="#253347" stroke-width="1.2" stroke-dasharray="4,4"/>
+    <path d="M-70 -30v-15h15M55 -45h15v15M70 30v15h-15M-55 45h-15v-15" stroke="#60A5FA" stroke-width="2"/>
+    <path d="M-30 -10 C -15 -25, 20 -20, 30 -5 C 40 10, 15 25, -10 20 C -35 15, -40 5, -30 -10 Z" fill="#162032" stroke="#3B82F6" stroke-width="1.5"/>
   </g>
 
   <!-- Tag Pill -->
-  <rect x="36" y="32" width="150" height="24" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
-  <text x="111" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#34D399" text-anchor="middle" letter-spacing="1">COMPUTER VISION • U-NET</text>
+  <rect x="28" y="28" width="170" height="22" rx="11" fill="#162032" stroke="#253347" stroke-width="1"/>
+  <text x="113" y="43" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#94A3B8" text-anchor="middle" letter-spacing="0.5">COMPUTER VISION • U-NET</text>
 
   <!-- Title & Sub -->
-  <text x="36" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#F8FAFC" letter-spacing="-0.3">Smart Agritech Weed Detection</text>
-  <text x="36" y="324" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#94A3B8">Automated HSV Mask Generation • PyTorch Segmentation • Targeted Spraying</text>
+  <text x="28" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">Agritech Weed Detection</text>
+  <text x="28" y="324" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">Automated HSV mask generation and U-Net segmentation</text>
 </svg>

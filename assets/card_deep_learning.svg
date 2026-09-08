@@ -1,58 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" fill="none">
-  <defs>
-    <linearGradient id="dl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712"/>
-      <stop offset="50%" stop-color="#1E1035"/>
-      <stop offset="100%" stop-color="#030712"/>
-    </linearGradient>
-    <radialGradient id="dl-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="640" height="360" rx="14" fill="url(#dl-bg)"/>
-  <circle cx="320" cy="180" r="180" fill="url(#dl-glow)"/>
+  <rect width="640" height="360" rx="10" fill="#0D1726"/>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="9.5" stroke="#1E293B" stroke-width="1"/>
 
   <!-- Subtle Grid -->
-  <path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M120 0v360M240 0v360M360 0v360M480 0v360" stroke="#1E293B" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.35"/>
+  <path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M120 0v360M240 0v360M360 0v360M480 0v360" stroke="#162032" stroke-width="0.8" stroke-dasharray="2,2"/>
 
   <!-- Neural Network Visualization -->
-  <g opacity="0.85" transform="translate(320, 150)">
-    <!-- Layer 1 -->
-    <circle cx="-100" cy="-45" r="7" fill="#030712" stroke="#A855F7" stroke-width="2"/>
-    <circle cx="-100" cy="0" r="7" fill="#030712" stroke="#A855F7" stroke-width="2"/>
-    <circle cx="-100" cy="45" r="7" fill="#030712" stroke="#A855F7" stroke-width="2"/>
-    <!-- Layer 2 -->
-    <circle cx="0" cy="-65" r="8" fill="#0F172A" stroke="#C084FC" stroke-width="2.5"/>
-    <circle cx="0" cy="-22" r="8" fill="#0F172A" stroke="#C084FC" stroke-width="2.5"/>
-    <circle cx="0" cy="22" r="8" fill="#0F172A" stroke="#C084FC" stroke-width="2.5"/>
-    <circle cx="0" cy="65" r="8" fill="#0F172A" stroke="#C084FC" stroke-width="2.5"/>
-    <!-- Layer 3 -->
-    <circle cx="100" cy="-30" r="7" fill="#030712" stroke="#38BDF8" stroke-width="2"/>
-    <circle cx="100" cy="30" r="7" fill="#030712" stroke="#38BDF8" stroke-width="2"/>
+  <g transform="translate(320, 150)">
+    <circle cx="-90" cy="-35" r="6" fill="#0D1726" stroke="#253347" stroke-width="1.5"/>
+    <circle cx="-90" cy="0" r="6" fill="#0D1726" stroke="#253347" stroke-width="1.5"/>
+    <circle cx="-90" cy="35" r="6" fill="#0D1726" stroke="#253347" stroke-width="1.5"/>
 
-    <!-- Interconnects -->
-    <line x1="-93" y1="-45" x2="-8" y2="-65" stroke="#A855F7" stroke-width="1.2" opacity="0.6"/>
-    <line x1="-93" y1="-45" x2="-8" y2="-22" stroke="#A855F7" stroke-width="1.2" opacity="0.6"/>
-    <line x1="-93" y1="0" x2="-8" y2="-22" stroke="#A855F7" stroke-width="1.2" opacity="0.6"/>
-    <line x1="-93" y1="0" x2="-8" y2="22" stroke="#A855F7" stroke-width="1.2" opacity="0.6"/>
-    <line x1="-93" y1="45" x2="-8" y2="22" stroke="#A855F7" stroke-width="1.2" opacity="0.6"/>
-    <line x1="-93" y1="45" x2="-8" y2="65" stroke="#A855F7" stroke-width="1.2" opacity="0.6"/>
+    <circle cx="0" cy="-50" r="7" fill="#162032" stroke="#60A5FA" stroke-width="1.5"/>
+    <circle cx="0" cy="-18" r="7" fill="#162032" stroke="#60A5FA" stroke-width="1.5"/>
+    <circle cx="0" cy="18" r="7" fill="#162032" stroke="#60A5FA" stroke-width="1.5"/>
+    <circle cx="0" cy="50" r="7" fill="#162032" stroke="#60A5FA" stroke-width="1.5"/>
 
-    <line x1="8" y1="-65" x2="93" y2="-30" stroke="#C084FC" stroke-width="1.2" opacity="0.6"/>
-    <line x1="8" y1="-22" x2="93" y2="-30" stroke="#C084FC" stroke-width="1.2" opacity="0.6"/>
-    <line x1="8" y1="22" x2="93" y2="30" stroke="#C084FC" stroke-width="1.2" opacity="0.6"/>
-    <line x1="8" y1="65" x2="93" y2="30" stroke="#C084FC" stroke-width="1.2" opacity="0.6"/>
+    <circle cx="90" cy="-22" r="6" fill="#0D1726" stroke="#253347" stroke-width="1.5"/>
+    <circle cx="90" cy="22" r="6" fill="#0D1726" stroke="#253347" stroke-width="1.5"/>
 
-    <circle cx="0" cy="-22" r="4" fill="#C084FC"/>
-    <circle cx="0" cy="22" r="4" fill="#C084FC"/>
+    <line x1="-84" y1="-35" x2="-7" y2="-50" stroke="#253347" stroke-width="1"/>
+    <line x1="-84" y1="-35" x2="-7" y2="-18" stroke="#253347" stroke-width="1"/>
+    <line x1="-84" y1="0" x2="-7" y2="-18" stroke="#253347" stroke-width="1"/>
+    <line x1="-84" y1="0" x2="-7" y2="18" stroke="#253347" stroke-width="1"/>
+    <line x1="-84" y1="35" x2="-7" y2="18" stroke="#253347" stroke-width="1"/>
+    <line x1="-84" y1="35" x2="-7" y2="50" stroke="#253347" stroke-width="1"/>
+
+    <line x1="7" y1="-50" x2="84" y2="-22" stroke="#253347" stroke-width="1"/>
+    <line x1="7" y1="-18" x2="84" y2="-22" stroke="#253347" stroke-width="1"/>
+    <line x1="7" y1="18" x2="84" y2="22" stroke="#253347" stroke-width="1"/>
+    <line x1="7" y1="50" x2="84" y2="22" stroke="#253347" stroke-width="1"/>
   </g>
 
   <!-- Tag Pill -->
-  <rect x="36" y="32" width="165" height="24" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
-  <text x="118" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#C084FC" text-anchor="middle" letter-spacing="1">DEEP LEARNING • VISION</text>
+  <rect x="28" y="28" width="160" height="22" rx="11" fill="#162032" stroke="#253347" stroke-width="1"/>
+  <text x="108" y="43" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#94A3B8" text-anchor="middle" letter-spacing="0.5">DEEP LEARNING • VISION</text>
 
   <!-- Title & Sub -->
-  <text x="36" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#F8FAFC" letter-spacing="-0.3">Deep Learning Portfolio</text>
-  <text x="36" y="324" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#94A3B8">CNNs, RNNs, GANs, Transfer Learning • PyTorch &amp; TensorFlow</text>
+  <text x="28" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">Deep Learning Portfolio</text>
+  <text x="28" y="324" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">CNNs, RNNs, GANs, and transfer learning architectures</text>
 </svg>

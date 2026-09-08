@@ -1,38 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" fill="none">
-  <defs>
-    <linearGradient id="hb-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712"/>
-      <stop offset="50%" stop-color="#0A1E2B"/>
-      <stop offset="100%" stop-color="#030712"/>
-    </linearGradient>
-    <radialGradient id="hb-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#0D9488" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="640" height="360" rx="14" fill="url(#hb-bg)"/>
-  <circle cx="320" cy="180" r="180" fill="url(#hb-glow)"/>
+  <rect width="640" height="360" rx="10" fill="#0D1726"/>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="9.5" stroke="#1E293B" stroke-width="1"/>
 
   <!-- Subtle Grid -->
-  <path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M120 0v360M240 0v360M360 0v360M480 0v360" stroke="#1E293B" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.35"/>
+  <path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M120 0v360M240 0v360M360 0v360M480 0v360" stroke="#162032" stroke-width="0.8" stroke-dasharray="2,2"/>
 
   <!-- AI Recommendation Matrix Graphic -->
-  <g opacity="0.85" transform="translate(320, 155)">
-    <polygon points="0,-65 60,-20 40,55 -40,55 -60,-20" fill="none" stroke="#2DD4BF" stroke-width="2" stroke-dasharray="4,3"/>
-    <polygon points="0,-45 42,-12 28,40 -28,40 -42,-12" fill="#0F2D37" fill-opacity="0.5" stroke="#38BDF8" stroke-width="2.5"/>
-    <circle cx="0" cy="-45" r="5" fill="#38BDF8"/>
-    <circle cx="42" cy="-12" r="5" fill="#2DD4BF"/>
-    <circle cx="28" cy="40" r="5" fill="#38BDF8"/>
-    <circle cx="-28" cy="40" r="5" fill="#2DD4BF"/>
-    <circle cx="-42" cy="-12" r="5" fill="#38BDF8"/>
-    <circle cx="0" cy="0" r="3.5" fill="#FFFFFF"/>
+  <g transform="translate(320, 155)">
+    <polygon points="0,-55 50,-18 32,45 -32,45 -50,-18" fill="none" stroke="#253347" stroke-width="1.5"/>
+    <polygon points="0,-36 34,-10 22,30 -22,30 -34,-10" fill="#162032" stroke="#60A5FA" stroke-width="1.5"/>
+    <circle cx="0" cy="-36" r="3.5" fill="#60A5FA"/>
+    <circle cx="34" cy="-10" r="3.5" fill="#60A5FA"/>
+    <circle cx="22" cy="30" r="3.5" fill="#60A5FA"/>
+    <circle cx="-22" cy="30" r="3.5" fill="#60A5FA"/>
+    <circle cx="-34" cy="-10" r="3.5" fill="#60A5FA"/>
   </g>
 
   <!-- Tag Pill -->
-  <rect x="36" y="32" width="165" height="24" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
-  <text x="118" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#2DD4BF" text-anchor="middle" letter-spacing="1">PUBLISHED RESEARCH • WJIR</text>
+  <rect x="28" y="28" width="168" height="22" rx="11" fill="#162032" stroke="#253347" stroke-width="1"/>
+  <text x="112" y="43" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#94A3B8" text-anchor="middle" letter-spacing="0.5">PUBLISHED RESEARCH • WJIR</text>
 
   <!-- Title & Sub -->
-  <text x="36" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#F8FAFC" letter-spacing="-0.3">HomeBite Platform</text>
-  <text x="36" y="324" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#94A3B8">AI Nutrition Engine • Demand Forecasting • React 19 &amp; Supabase</text>
+  <text x="28" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">HomeBite Platform</text>
+  <text x="28" y="324" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">AI nutrition recommendation &amp; demand forecasting</text>
 </svg>

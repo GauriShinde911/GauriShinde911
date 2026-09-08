@@ -1,15 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="36" viewBox="0 0 130 36" fill="none">
-  <defs>
-    <linearGradient id="btn-conn-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.25"/>
-    </linearGradient>
-  </defs>
-  <rect x="0.5" y="0.5" width="129" height="35" rx="17.5" fill="url(#btn-conn-bg)" stroke="#38BDF8" stroke-opacity="0.6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="36" viewBox="0 0 132 36" fill="none">
+  <rect x="0.5" y="0.5" width="131" height="35" rx="17.5" fill="#1D4ED8" stroke="#3B82F6" stroke-width="1"/>
   <!-- LinkedIn Icon -->
   <g transform="translate(18, 10)">
-    <rect width="16" height="16" rx="3" fill="#0284C7"/>
+    <rect width="16" height="16" rx="3" fill="#FFFFFF" fill-opacity="0.15"/>
     <path d="M4 6.5h2v6.5H4V6.5zM5 3.5a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4zM7.5 6.5h1.9v1h.03c.26-.5.9-1.03 1.9-1.03 2.03 0 2.4 1.34 2.4 3.08v3.45h-2v-3.06c0-.73-.01-1.67-1.02-1.67-1.02 0-1.18.8-1.18 1.62v3.11h-2V6.5z" fill="#FFFFFF"/>
   </g>
-  <text x="70" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#F8FAFC" text-anchor="middle" letter-spacing="0.3">Connect</text>
+  <text x="74" y="22.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.2">Connect</text>
 </svg>
