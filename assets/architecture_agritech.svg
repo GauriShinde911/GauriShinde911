@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 120" width="100%" fill="none">
+  <defs>
+    <style>
+      .arch-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; font-weight: 600; fill: #E2E8F0; }
+      .arch-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 8.5px; font-weight: 400; fill: #64748B; }
+    </style>
+  </defs>
+
+  <rect width="840" height="120" rx="12" fill="#0D1726"/>
+  <rect x="0.5" y="0.5" width="839" height="119" rx="11.5" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Connecting line -->
+  <line x1="120" y1="42" x2="720" y2="42" stroke="#1E293B" stroke-width="1.5"/>
+  <line x1="120" y1="42" x2="720" y2="42" stroke="#3B82F6" stroke-width="1" stroke-dasharray="4,6" opacity="0.4"/>
+
+  <!-- 1. Drone Image -->
+  <g transform="translate(120, 42)">
+    <circle r="13" fill="#0D1726" stroke="#253347" stroke-width="1.5"/>
+    <circle r="4" fill="#60A5FA"/>
+    <text x="0" y="28" text-anchor="middle" class="arch-title">Drone Image</text>
+    <text x="0" y="41" text-anchor="middle" class="arch-sub">Aerial Ingestion</text>
+  </g>
+
+  <!-- 2. YOLO Detection -->
+  <g transform="translate(320, 42)">
+    <circle r="13" fill="#0D1726" stroke="#253347" stroke-width="1.5"/>
+    <circle r="4" fill="#60A5FA"/>
+    <text x="0" y="28" text-anchor="middle" class="arch-title">YOLO Detection</text>
+    <text x="0" y="41" text-anchor="middle" class="arch-sub">Bounding Reticles</text>
+  </g>
+
+  <!-- 3. Weed Classification -->
+  <g transform="translate(520, 42)">
+    <circle r="14" fill="#162032" stroke="#60A5FA" stroke-width="1.5"/>
+    <circle r="4.5" fill="#60A5FA"/>
+    <text x="0" y="28" text-anchor="middle" class="arch-title" fill="#60A5FA">Classification &amp; U-Net</text>
+    <text x="0" y="41" text-anchor="middle" class="arch-sub">Pixel Segmentation</text>
+  </g>
+
+  <!-- 4. ROI Analysis -->
+  <g transform="translate(720, 42)">
+    <circle r="13" fill="#0D1726" stroke="#253347" stroke-width="1.5"/>
+    <circle r="4" fill="#60A5FA"/>
+    <text x="0" y="28" text-anchor="middle" class="arch-title">ROI Analysis</text>
+    <text x="0" y="41" text-anchor="middle" class="arch-sub">Targeted Spraying</text>
+  </g>
+</svg>
