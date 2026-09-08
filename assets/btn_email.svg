@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="36" viewBox="0 0 130 36" fill="none">
+  <defs>
+    <linearGradient id="btn-mail-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="129" height="35" rx="17.5" fill="url(#btn-mail-bg)" stroke="#38BDF8" stroke-opacity="0.6"/>
+  <!-- Mail Icon -->
+  <g transform="translate(18, 11)">
+    <rect width="16" height="13" rx="2" fill="none" stroke="#38BDF8" stroke-width="1.3"/>
+    <path d="M1 2.5l7 5 7-5" stroke="#38BDF8" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="70" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#F8FAFC" text-anchor="middle" letter-spacing="0.3">Email</text>
+</svg>

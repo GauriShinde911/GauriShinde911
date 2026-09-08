@@ -1,7 +1,7 @@
 # GAURI RAHUL SHINDE
 **B.Tech CSE - AI & Analytics | MIT ADT University, Pune**  
 📍 Pune, India | 📞 +91 7558420605 | ✉️ [shindegauri2005@gmail.com](mailto:shindegauri2005@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/gaurishinde6283) | 💻 [GitHub](https://github.com/GauriShinde911)
+🔗 [LinkedIn](https://linkedin.com/in/gaurishinde6283) | 💻 [GitHub](https://github.com/GauriShinde911) | 📄 [Download PDF](Gauri_Shinde_Resume.pdf)
 
 ---
 
