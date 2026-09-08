@@ -294,16 +294,13 @@
   ◈ GitHub Analytics
 </h3>
 
-<table width="100%" border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; border: none; margin-bottom: 36px;">
-  <tr style="border: none; background: transparent;">
-    <td width="50%" align="center" valign="middle" style="border: none; padding: 6px;">
-      <img src="https://github-readme-stats.vercel.app/api?username=GauriShinde911&show_icons=true&theme=dark&bg_color=0D1726&title_color=60A5FA&text_color=94A3B8&icon_color=60A5FA&border_color=1E293B&hide_border=false" width="100%" alt="GitHub Stats" />
-    </td>
-    <td width="50%" align="center" valign="middle" style="border: none; padding: 6px;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GauriShinde911&layout=compact&theme=dark&bg_color=0D1726&title_color=60A5FA&text_color=94A3B8&border_color=1E293B&hide_border=false" width="100%" alt="Top Languages" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=GauriShinde911&show_icons=true&count_private=true&theme=tokyonight&hide_border=true"/>
+
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GauriShinde911&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
 
 <img src="assets/divider.svg" width="100%" height="2" alt="Divider" />
 
